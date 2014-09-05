@@ -1,0 +1,18 @@
+﻿@model ICollection<Homsey.Core.Contract.IComment>
+
+<div style="margin-top: 10px;">
+    @if (Model != null)
+    {
+        foreach (var comment in Model)
+        {
+        <div class="commentContainer">
+            <p style="line-height: 0px">
+                <span class="name">@comment.Name</span>
+                <span class="date">@comment.DateStamp.ToString("dd MMMM, hh:mm tt")</span>
+            </p>
+
+            @comment.Remark
+        </div>
+        }
+    }
+</div>

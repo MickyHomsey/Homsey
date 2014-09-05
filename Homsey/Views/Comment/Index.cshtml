@@ -1,0 +1,38 @@
+﻿@model Homsey.Models.CommentModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="topLiner clearFix">
+    <h1>Leave a comment</h1>
+
+    @using (Html.BeginForm("AddComment", "Comment", FormMethod.Post))
+    {
+        <table>
+            <tr>
+                <td style="width: 80px">@Html.LabelFor(model => model.Name)</td>
+                <td>@Html.TextBoxFor(model => model.Name, new { @class = "wideTextBox" })</td>
+                <td>@Html.ValidationMessageFor(model => model.Name)</td>
+            </tr>
+            
+            <tr>
+                <td class="alignTop">@Html.LabelFor(model => model.Email)</td>
+                <td>@Html.TextBoxFor(model => model.Email, new { @class="wideTextBox" })</td>
+                <td>@Html.ValidationMessageFor(model => model.Email)</td>
+            </tr>
+            
+            <tr>
+                <td class="alignTop">@Html.LabelFor(model => model.Remark)</td>
+                <td>@Html.TextAreaFor(model => model.Remark, new { @class="textArea", @placeholder = "What would you like to say?"})</td>
+                <td>@Html.ValidationMessageFor(model => model.Remark)</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <button class="button floatRight" title="Save Comment" type="submit">Save Comment</button>
+                </td>
+            </tr>
+        </table>
+    }
+</div>

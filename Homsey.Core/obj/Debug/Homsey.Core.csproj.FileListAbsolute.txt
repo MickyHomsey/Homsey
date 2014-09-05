@@ -1,0 +1,12 @@
+F:\Web Systems\Homsey\Homsey.Core\obj\Debug\Homsey.Core.csprojResolveAssemblyReference.cache
+F:\Web Systems\Homsey\Homsey.Core\bin\Debug\Homsey.Core.dll.config
+F:\Web Systems\Homsey\Homsey.Core\bin\Debug\Homsey.Core.dll
+F:\Web Systems\Homsey\Homsey.Core\bin\Debug\Homsey.Core.pdb
+F:\Web Systems\Homsey\Homsey.Core\bin\Debug\EntityFramework.dll
+F:\Web Systems\Homsey\Homsey.Core\bin\Debug\EntityFramework.xml
+F:\Web Systems\Homsey\Homsey.Core\obj\Debug\Homsey.Core.dll
+F:\Web Systems\Homsey\Homsey.Core\obj\Debug\Homsey.Core.pdb
+F:\Web Systems\Homsey\Homsey.Core\bin\Debug\Ninject.dll
+F:\Web Systems\Homsey\Homsey.Core\bin\Debug\Ninject.pdb
+F:\Web Systems\Homsey\Homsey.Core\bin\Debug\Ninject.xml
+F:\Web Systems\Homsey\Homsey.Core\bin\Debug\LinqToTwitter.dll

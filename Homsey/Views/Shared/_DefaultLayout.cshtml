@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Styles/MainStyler.css" rel="stylesheet" type="text/css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+</head>
+<body>
+    @{Html.RenderAction("Header", "HeaderFooter");}
+    @{Html.RenderAction("MainMenu", "Menu");}
+
+    <div id="websiteBody">
+        @RenderBody()
+    </div>
+
+    <div id="rightSideBar">
+        @{Html.RenderAction("ShortMe", "About");}
+        @{Html.RenderAction("Short", "Category");}
+    </div>
+
+    @if (ViewBag.RenderCommentController)
+    {
+        Html.RenderAction("Index", "Comment");
+        Html.RenderAction("LoadComments", "Comment");
+    }
+
+    @{Html.RenderAction("Footer", "HeaderFooter");}
+</body>
+</html>

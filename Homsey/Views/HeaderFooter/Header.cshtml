@@ -1,0 +1,17 @@
+﻿<div id="bannerBar">
+    <img id="bannerImage" src="/MediaLibrary/Images/Logo.png" />
+    <div id="menuBar" runat="server">
+        &nbsp;
+        @Html.ActionLink("About the Blog", "AboutMyBlog", "About")
+        &nbsp;
+        @Html.ActionLink("About Me", "AboutMe", "About")
+        &nbsp;
+        @Html.ActionLink("Contact", "ContactMe", "About")
+        &nbsp;
+        
+        <div id="searchBox">
+            <input id="quickSearch" type="text" placeholder="Coming Soon" disabled="disabled" />
+            <img id="searchButton" src="/MediaLibrary/Images/SearchButton.png"/>
+        </div>
+    </div>
+</div>

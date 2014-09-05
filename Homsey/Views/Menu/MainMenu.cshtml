@@ -1,0 +1,21 @@
+﻿@model Homsey.Core.Contract.IMenuData[]
+
+<div id="navigationBar">
+    <ul>
+        @foreach (var menuItem  in Model)
+        {
+            <li>
+                <a href="@menuItem.AbsoluteURL" class="headMenuItem">@menuItem.Label</a>
+                
+                <ul>
+                    @*@foreach (var subMenuItem in menuItem)
+                    {
+                        <li class="subMenuItem">
+                            <a href="@subMenuItem.AbsoluteURL">@subMenuItem.Label</a>
+                        </li>
+                    }*@
+                </ul>
+            </li>
+        }
+    </ul>
+</div>

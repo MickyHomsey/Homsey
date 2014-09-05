@@ -1,0 +1,13 @@
+﻿@model Homsey.Core.Contract.ICategory[]
+
+<div>
+    <h1>Categories</h1>
+
+    <p>
+        @foreach (var category in Model)
+        {
+            <a href="Category/@category.Name">@category.Name</a>
+            <br />
+        }
+    </p>
+</div>

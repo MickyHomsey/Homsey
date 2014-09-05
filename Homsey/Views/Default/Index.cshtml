@@ -1,0 +1,23 @@
+﻿@model Homsey.Core.Contract.IPageContentView[]
+
+@{
+    ViewBag.Title = "Michael Homsey - Home";
+    Layout = "~/Views/Shared/_DefaultLayout.cshtml";
+    <link href="~/Styles/HomePageStyler.css" rel="stylesheet" />
+}
+
+@foreach (var pageContentView in Model)
+{
+    <div class="homePageBlogContainer">
+        <div class="homePageImage">
+            <img src="@pageContentView.Image" alt="Blog Image" title="@pageContentView.ImageTitle" class="blogImage"/>
+        </div>
+
+        <div class="homePageBlog">
+            <h1>@Html.ActionLink(pageContentView.Title, "Index", "Article", new { article = pageContentView.Title.Replace(" ", "-") }, null)</h1>
+            <h2>@pageContentView.CreationDate.ToString("MMMM dd, yyyy") - by @pageContentView.Author - @pageContentView.CategoryName blog</h2>
+
+            <p>@pageContentView.Synopsis</p>
+        </div>
+    </div>
+}

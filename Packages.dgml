@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="EntityFramework 5.0.0" Category="Package" Bounds="555.673333333333,167.88,136.196666666667,25.96" Label="EntityFramework 5.0.0" />
+    <Node Id="Homsey.Core" Category="Project" Bounds="416.485,111.92,90.5733333333334,25.96" Label="Homsey.Core" />
+    <Node Id="Homsey.Website" Category="Project" Bounds="331.498333333333,0,108.546666666667,25.96" Label="Homsey.Website" />
+    <Node Id="HttpModuleMagic 0.1" Category="Package" Bounds="218.881666666667,55.96,135.78,25.96" Label="HttpModuleMagic 0.1" />
+    <Node Id="LinqToTwitter 2.1.11" Category="Package" Bounds="398.498333333333,167.88,126.546666666667,25.96" Label="LinqToTwitter 2.1.11" />
+    <Node Id="Microsoft.AspNet.Mvc 4.0.20710.0" Category="Package" Bounds="87.9233333333334,111.92,199.696666666667,25.96" Label="Microsoft.AspNet.Mvc 4.0.20710.0" />
+    <Node Id="Microsoft.AspNet.Razor 2.0.20710.0" Category="Package" Bounds="0,223.84,207.543333333333,25.96" Label="Microsoft.AspNet.Razor 2.0.20710.0" />
+    <Node Id="Microsoft.AspNet.WebApi 4.0.20710.0" Category="Package" Bounds="887.836666666667,55.9599999999999,219.87,25.96" Label="Microsoft.AspNet.WebApi 4.0.20710.0" />
+    <Node Id="Microsoft.AspNet.WebApi.Client 4.0.20710.0" Category="Package" Bounds="1072.34833333333,223.84,252.846666666667,25.96" Label="Microsoft.AspNet.WebApi.Client 4.0.20710.0" />
+    <Node Id="Microsoft.AspNet.WebApi.Core 4.0.20710.0" Category="Package" Bounds="1060.08166666667,167.88,247.38,25.96" Label="Microsoft.AspNet.WebApi.Core 4.0.20710.0" />
+    <Node Id="Microsoft.AspNet.WebApi.WebHost 4.0.20710.0" Category="Package" Bounds="1031.91166666667,111.92,271.72,25.96" Label="Microsoft.AspNet.WebApi.WebHost 4.0.20710.0" />
+    <Node Id="Microsoft.AspNet.WebPages 2.0.20710.0" Category="Package" Bounds="135.055,167.88,233.433333333333,25.96" Label="Microsoft.AspNet.WebPages 2.0.20710.0" />
+    <Node Id="Microsoft.Net.Http 2.0.20710.0" Category="Package" Bounds="1108.04666666667,279.8,181.45,25.96" Label="Microsoft.Net.Http 2.0.20710.0" />
+    <Node Id="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package" Bounds="833.733333333333,223.84,208.076666666667,25.96" Label="Microsoft.Web.Infrastructure 1.0.0.0" />
+    <Node Id="Newtonsoft.Json 4.5.6" Category="Package" Bounds="942.045,279.8,135.453333333333,25.96" Label="Newtonsoft.Json 4.5.6" />
+    <Node Id="Ninject 3.0.1.10" Category="Package" Bounds="746.32,167.88,100.903333333333,25.96" Label="Ninject 3.0.1.10" />
+    <Node Id="Ninject.Extensions.Conventions 3.0.0.11" Category="Package" Bounds="537.933333333333,111.92,227.676666666667,25.96" Label="Ninject.Extensions.Conventions 3.0.0.11" />
+    <Node Id="Ninject.Web 3.0.0.5" Category="Package" Bounds="735.985,55.9599999999999,121.573333333333,25.96" Label="Ninject.Web 3.0.0.5" />
+    <Node Id="Ninject.Web.Common 3.0.0.7" Category="Package" Bounds="828.208333333333,111.92,173.126666666667,25.96" Label="Ninject.Web.Common 3.0.0.7" />
+    <Node Id="WebActivator 1.5.3" Category="Package" Bounds="877.863333333333,167.88,119.816666666667,25.96" Label="WebActivator 1.5.3" />
+  </Nodes>
+  <Links>
+    <Link Source="Homsey.Core" Target="EntityFramework 5.0.0" Category="Installed Package" Bounds="499.347778320313,137.880004882813,78.3410034179688,27.0614776611328" />
+    <Link Source="Homsey.Core" Target="LinqToTwitter 2.1.11" Category="Installed Package" Bounds="461.771667480469,137.880004882813,0,21" />
+    <Link Source="Homsey.Core" Target="Ninject 3.0.1.10" Category="Installed Package" Bounds="507.058319091797,134.008483886719,230.370330810547,37.5454711914063" />
+    <Link Source="Homsey.Website" Target="HttpModuleMagic 0.1" Category="Installed Package" Bounds="317.569793701172,25.9599990844727,45.2386779785156,25.5712776184082" />
+    <Link Source="Homsey.Website" Target="LinqToTwitter 2.1.11" Category="Installed Package" Bounds="385.771667480469,25.9599990844727,51.1243591308594,136.583686828613" />
+    <Link Source="Homsey.Website" Target="Microsoft.AspNet.Mvc 4.0.20710.0" Category="Installed Package" Bounds="187.771667480469,24.7719764709473,144.335693359375,78.148021697998" />
+    <Link Source="Homsey.Website" Target="Microsoft.AspNet.WebApi 4.0.20710.0" Category="Installed Package" Bounds="440.045013427734,17.6675300598145,439.321990966797,38.7831039428711" />
+    <Link Source="Homsey.Website" Target="Ninject.Extensions.Conventions 3.0.0.11" Category="Installed Package" Bounds="416.621215820313,25.9599990844727,196.005310058594,82.4696044921875" />
+    <Link Source="Homsey.Website" Target="Ninject.Web 3.0.0.5" Category="Installed Package" Bounds="440.045013427734,20.3696250915527,287.022247314453,39.0797233581543" />
+    <Link Source="Microsoft.AspNet.Mvc 4.0.20710.0" Target="Microsoft.AspNet.Razor 2.0.20710.0" Category="Package Dependency" Bounds="103.771667480469,137.880004882813,64.5160827636719,76.9599914550781" />
+    <Link Source="Microsoft.AspNet.Mvc 4.0.20710.0" Target="Microsoft.AspNet.WebPages 2.0.20710.0" Category="Package Dependency" Bounds="202.616561889648,137.880004882813,27.5349273681641,24.0758514404297" />
+    <Link Source="Microsoft.AspNet.WebApi 4.0.20710.0" Target="Microsoft.AspNet.WebApi.WebHost 4.0.20710.0" Category="Package Dependency" Bounds="1037.20336914063,81.9199981689453,82.5877685546875,27.1859512329102" />
+    <Link Source="Microsoft.AspNet.WebApi.Client 4.0.20710.0" Target="Microsoft.Net.Http 2.0.20710.0" Category="Package Dependency" Bounds="1198.77160644531,249.800003051758,0,20.9999847412109" />
+    <Link Source="Microsoft.AspNet.WebApi.Client 4.0.20710.0" Target="Newtonsoft.Json 4.5.6" Category="Package Dependency" Bounds="1062.24011230469,249.800003051758,92.6927490234375,27.4448699951172" />
+    <Link Source="Microsoft.AspNet.WebApi.Core 4.0.20710.0" Target="Microsoft.AspNet.WebApi.Client 4.0.20710.0" Category="Package Dependency" Bounds="1187.2509765625,193.839996337891,5.711181640625,21.306884765625" />
+    <Link Source="Microsoft.AspNet.WebApi.WebHost 4.0.20710.0" Target="Microsoft.AspNet.WebApi.Core 4.0.20710.0" Category="Package Dependency" Bounds="1171.48291015625,137.880004882813,6.1033935546875,21.3467407226563" />
+    <Link Source="Microsoft.AspNet.WebApi.WebHost 4.0.20710.0" Target="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package Dependency" Bounds="966.545654296875,137.880004882813,166.539428710938,81.2455596923828" />
+    <Link Source="Microsoft.AspNet.WebPages 2.0.20710.0" Target="Microsoft.AspNet.Razor 2.0.20710.0" Category="Package Dependency" Bounds="146.518798828125,193.839996337891,70.9240570068359,26.8169708251953" />
+    <Link Source="Microsoft.AspNet.WebPages 2.0.20710.0" Target="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package Dependency" Bounds="367.509246826172,193.057174682617,457.248626708984,35.3998565673828" />
+    <Link Source="Ninject.Extensions.Conventions 3.0.0.11" Target="Ninject 3.0.1.10" Category="Package Dependency" Bounds="685.404602050781,137.880004882813,69.3377075195313,26.7595672607422" />
+    <Link Source="Ninject.Web 3.0.0.5" Target="Ninject 3.0.1.10" Category="Package Dependency" Bounds="796.771667480469,81.9199981689453,0,76.9600067138672" />
+    <Link Source="Ninject.Web 3.0.0.5" Target="Ninject.Web.Common 3.0.0.7" Category="Package Dependency" Bounds="824.141906738281,81.9199981689453,55.1276245117188,26.1435546875" />
+    <Link Source="Ninject.Web.Common 3.0.0.7" Target="Ninject 3.0.1.10" Category="Package Dependency" Bounds="832.273803710938,137.880004882813,55.1276245117188,26.1435394287109" />
+    <Link Source="Ninject.Web.Common 3.0.0.7" Target="WebActivator 1.5.3" Category="Package Dependency" Bounds="920.106567382813,137.880004882813,8.90887451171875,21.6756744384766" />
+    <Link Source="WebActivator 1.5.3" Target="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package Dependency" Bounds="937.771667480469,193.839996337891,0,21" />
+  </Links>
+  <Categories>
+    <Category Id="Installed Package" />
+    <Category Id="Package" />
+    <Category Id="Package Dependency" />
+    <Category Id="Project" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Project" ValueLabel="True">
+      <Condition Expression="HasCategory('Project')" />
+      <Setter Property="Background" Value="Blue" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Package Dependency" ValueLabel="True">
+      <Condition Expression="HasCategory('Package Dependency')" />
+      <Setter Property="Background" Value="Yellow" />
+    </Style>
+  </Styles>
+</DirectedGraph>

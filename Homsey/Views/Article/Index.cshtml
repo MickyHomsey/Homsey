@@ -1,0 +1,11 @@
+﻿@model Homsey.Core.Contract.IPageContentView
+
+@{
+    ViewBag.Title = Model.Title;
+    Layout = "~/Views/Shared/_DefaultLayout.cshtml";
+}
+
+<h1>@Model.Title</h1>
+<h2>@Model.CreationDate.ToString("MMMM dd, yyyy") - Author: @Model.Author - @Model.CategoryName blog</h2>
+
+@Model.Article

@@ -1,0 +1,40 @@
+﻿.homePageBlogContainer
+{
+    border-bottom: dashed 1px #2a73f4;
+    display: none;
+    float: left;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.homePageImage
+{
+    float: left;
+    padding-right: 10px;
+}
+
+.homePageBlog
+{
+    float: left;
+    width: 575px;
+}
+
+    .homePageBlog h1
+    {
+        margin-bottom: 0px;
+    }
+
+    .homePageBlog h2
+    {
+        margin-top: 5px;
+    }
+
+.blogImage
+{
+    border: solid 1px #D4D3CD;
+    height: 120px;
+    width: 120px;
+}
+
+
