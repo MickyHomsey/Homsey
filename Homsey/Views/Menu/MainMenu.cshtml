@@ -1,10 +1,16 @@
 ﻿@model Homsey.Core.Contract.IMenuData[]
 
-<div id="navigationBar">
+<script>
+    var MainMenuController = function($scope) {
+        $scope.width = (1024 / @Model.Count()) + "px";
+    }
+</script>
+
+<div id="navigationBar" ng-controller="MainMenuController">
     <ul>
-        @foreach (var menuItem  in Model)
+        @foreach (var menuItem in Model)
         {
-            <li>
+            <li style="width: {{ width }}">
                 <a href="@menuItem.AbsoluteURL" class="headMenuItem">@menuItem.Label</a>
                 
                 <ul>

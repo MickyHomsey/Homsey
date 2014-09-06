@@ -7,10 +7,10 @@
     <link href="~/Styles/MainStyler.css" rel="stylesheet" type="text/css" />
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
 </head>
-<body>
+<body ng-app>
     @{Html.RenderAction("Header", "HeaderFooter");}
     @{Html.RenderAction("MainMenu", "Menu");}
-
+    
     <div id="websiteBody">
         @RenderBody()
     </div>

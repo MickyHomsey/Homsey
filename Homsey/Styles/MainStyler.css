@@ -85,6 +85,7 @@ body
     #navigationBar li
     {
         float: left;
+        text-align: center;
     }
 
     #navigationBar a
